@@ -1,0 +1,180 @@
+.post-group{
+    margin-bottom: 20px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    background-color: #fff;
+}
+.post-group-c-w{
+    width: 50%;
+    position: relative; 
+    left: 25%;
+    top: 5%;   
+}
+/* .add_box {
+    position: absolute;
+    right   : 20px;
+    bottom  : 3%;
+}
+
+/* .more_horiz {
+    position: absolute;
+    right   : 20px;
+    top     : 7.5%;
+
+} */ */
+
+.linkActive {
+    border-bottom: 1px white solid;
+}
+
+.clean-top {
+    height: 100px;
+}
+
+.clean-left {
+    width: 25%;
+}
+
+.row a {
+    text-decoration: none;
+    color          : black;
+
+}
+
+.margin-top-5 {
+    margin-top: 5rem;
+}
+.material-symbols-outlined-0 {
+    font-variation-settings:
+        'FILL'0,
+        'wght'700,
+        'GRAD'0,
+        'opsz'48
+}
+
+.FILL-1 {
+    font-variation-settings:
+        'FILL'1,
+        'wght'700,
+        'GRAD'0,
+        'opsz'48
+}
+
+.card{
+    margin-top: 5rem;
+}
+.messege-box{
+    width: 400px;
+}
+
+.messege-card-head{
+    height: 50px;
+    cursor: pointer;
+}
+.ou-f{
+    padding-bottom: 10px;
+    height: 85vh; 
+    overflow:auto;
+}
+.fixed-bottm-right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.max-width{
+    max-width: 70%;
+    margin-bottom: 18px;
+}
+/*border     after*/
+.m-body-1::after{
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    position: relative;
+    bottom: -7%;
+    right: -90%;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 13px solid rgba(40, 167, 69, 0.5);
+}
+.m-body-2::after {
+    content      : "";
+    display      : block;
+    height       : 0;
+    width        : 0;
+    position     : relative;
+    bottom       : -7%;
+    right        : 4%;
+    border-left  : 13px solid transparent;
+    border-right : 13px solid transparent;
+    border-bottom: 13px solid rgba(133, 133, 133, 0.25);
+}
+/*login.html */
+.center-form{
+    margin-top: 10%;
+    position: absolute;
+    left: 30%;
+    right: 25%;
+    top: 15%;
+
+}
+.form-group{
+    margin-bottom: 10px;
+}
+/* .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+} */
+
+/*bg-gradient bg-opacity-10 add to css */
